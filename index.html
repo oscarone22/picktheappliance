@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fire Dispatch Game</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        #map { height: 600px; width: 100%; }
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        #info { margin: 10px 0; font-weight: bold; }
+        #score { margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <h1>PickTheAppliance Game</h1>
+    <p>Select the closest fire station to the fire emergency on the map!</p>
+    <div id="map"></div>
+    <div id="info">Loading round...</div>
+    <div id="score">Score: 0</div>
+    <script src="game.js"></script>
+</body>
+</html>
