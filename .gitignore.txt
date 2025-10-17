@@ -1,5 +1,4 @@
 # Visual Studio junk
-.vs/
 bin/
 obj/
 *.suo
