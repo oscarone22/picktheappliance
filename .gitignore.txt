@@ -1,0 +1,12 @@
+# Visual Studio junk
+.vs/
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Windows/OS junk
+Thumbs.db
+Desktop.ini
